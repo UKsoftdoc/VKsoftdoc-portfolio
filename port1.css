@@ -18,11 +18,15 @@ header h1 {
     color: #1abb99;
 }
 
+nav ul {
+    padding: 0;
+    text-align: center;
+}
 
 nav ul li {
     list-style-type: none;
     display: inline-block;
-    padding: 10px 95px;
+    padding: 10px 20px;
 }
 
 nav ul li a {
@@ -30,8 +34,6 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
     font-size: 1.5rem;
-
-
 }
 
 section {
@@ -43,7 +45,6 @@ section h2 {
     font-size: 2rem;
     margin-bottom: 20px;
 }
-
 
 .project {
     margin-bottom: 40px;
@@ -57,8 +58,6 @@ section h2 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-
-
 .project h3 {
     font-size: 1.5rem;
     margin-top: 10px;
@@ -69,39 +68,41 @@ section h2 {
     margin-top: 10px;
 }
 
+#contact>p {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+}
+
+.social-menu {
+    text-align: center;
+    margin-top: 20px;
+}
 
 .social-menu ul {
-    position: absolute;
+    padding: 0;
+    display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0;
-    margin: auto;
-    transform: translate(-50%, -50%);
-    display: flex;
+    list-style: none;
 }
 
 .social-menu ul li {
-    list-style: none;
     margin: 0 15px;
 }
 
 .social-menu ul li .fab {
     font-size: 30px;
-
     transition: .3s;
     color: #000;
 }
 
-.social-menu ul li .fab:hover {
+social-menu ul li .fab:hover {
     color: #fff;
 }
 
 .social-menu ul li a {
-    position: relative;
     display: block;
-    width: 60px;
 }
-
 
 footer {
     background-color: #2d3e52;
@@ -111,16 +112,6 @@ footer {
     font-size: 1rem;
 }
 
-footer>p {
-    font-size: 24px;
-}
-
-#contact>p {
-    font-size: 24px;
-    margin-bottom: 3rem;
-}
-
-.social-menu>ul {
-    margin-left: 40rem;
-
+footer p {
+    font-size: 1rem;
 }
