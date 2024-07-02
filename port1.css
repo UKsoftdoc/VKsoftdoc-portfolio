@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-image:url('maths.jpg');
+    background-color:#1abb99;
 }
 
 header {
@@ -32,7 +33,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #000;
+    color:#2d3e52 ;
     font-weight: bold;
     font-size: 1.2rem;
 }
@@ -56,7 +57,7 @@ section h2 {
 .project img {
     max-width: 100%;
     height: auto;
-    border: 2px solid #000;
+    border: 2px solid #2d3e52;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
