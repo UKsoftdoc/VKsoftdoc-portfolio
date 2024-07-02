@@ -30,6 +30,7 @@ nav ul li a{
 colour:black;
 text-decoration:none;
 font-weight:bold;
+  font-size: 1.5rem;
 
 
 }
@@ -99,7 +100,8 @@ section h2 {
 .social-menu ul li a{
     position: relative;
     display: block;
-    width: 60px;
+    width: 60px; 
+}
 
 
 footer {
