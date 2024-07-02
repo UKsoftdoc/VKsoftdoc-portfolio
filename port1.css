@@ -1,10 +1,9 @@
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image:url('maths.jpg');
-    background-color:#1abb99;
+    background-image: url('maths.jpg');
+    background-color: #1abb99;
 }
 
 header {
@@ -16,20 +15,20 @@ header {
 
 header h1 {
     font-size: 2.5rem;
-    colour: #1abb99;
+    color: #1abb99;
 }
 
 
-nav ul li{
-list-style-type:none;
-display: inline-block;
-padding:10px 95px;
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 95px;
 }
 
-nav ul li a{
-colour:black;
-text-decoration:none;
-font-weight:bold;
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
     font-size: 1.5rem;
 
 
@@ -71,43 +70,57 @@ section h2 {
 }
 
 
-.social-menu ul{
+.social-menu ul {
     position: absolute;
     justify-content: center;
-    align-item: center;
+    align-items: center;
     padding: 0;
     margin: auto;
     transform: translate(-50%, -50%);
     display: flex;
 }
 
-.social-menu ul li{
+.social-menu ul li {
     list-style: none;
     margin: 0 15px;
 }
 
-.social-menu ul li .fab{
+.social-menu ul li .fab {
     font-size: 30px;
-   
+
     transition: .3s;
     color: #000;
 }
 
-.social-menu ul li .fab:hover{
+.social-menu ul li .fab:hover {
     color: #fff;
 }
 
-.social-menu ul li a{
+.social-menu ul li a {
     position: relative;
     display: block;
-    width: 60px; 
+    width: 60px;
 }
 
 
 footer {
-    background-color: #2d3e52 ;
-    color:#1abb99  ;
+    background-color: #2d3e52;
+    color: #1abb99;
     text-align: center;
     padding: 20px;
     font-size: 1rem;
+}
+
+footer>p {
+    font-size: 24px;
+}
+
+#contact>p {
+    font-size: 24px;
+    margin-bottom: 3rem;
+}
+
+.social-menu>ul {
+    margin-left: 40rem;
+
 }
